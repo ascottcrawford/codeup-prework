@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My First HTML Form</title>
+	</head>
+	<body>
+		<h2>User Login</h2>
+		<form method="POST" action="http://requestb.in/1j3cwhk1">
+			<p>
+				<label for="username">Username</label>
+				<input id="username" name="username" type="text" placeholder="Enter username here.">
+			</p>
+			<p>
+				<label for="password">Password</label>
+				<input id="password" name="username" type="password" placeholder="Enter password here.">
+			</p>
+			<p>
+				<button type="submit">Login</button>
+			</p>
+		</form>
+		<form method="POST" action="http://requestb.in/1j3cwhk1">
+			<h2>Compose an Email</h2>
+			<input type="checkbox" id="email_copy" name="email_copy" value="yes" checked>
+				<label for="email_copy">Send a copy of the email in your sent folder?</label>
+			<p>
+				<label for="subject">Subject</label>
+				<input id="subject" name="subject" type="text"
+			</p>
+			<p>
+				<label for="to">To</label>
+				<input id="to" name="to" type="text" placeholder="Send an Email to:">
+			</p>
+			<p>
+				<label for="from">From</label>
+				<input id="from" name="from" type="from" placeholder="Your Email Address">
+			</p>
+			<p>
+				<textarea id="email_body" name="email+body">Content Here</textarea>
+			</p>
+			<p>
+				<button type="submit">Send</button>
+			</p>
+			<p>
+				<input type="checkbox" id="mailing_list" name="mailing_list" value="yes" checked>
+				<label for="mailing_list">Sign me up for the mailing list!</label>		
+			</p>
+				<p>Multiple Choice Test</p>
+					<h3>What is your favorite animal?</h3>
+					<label>
+						<input type="radio" name="q1" value="dog">
+						Dog
+					</label>
+					<label>
+						<input type="radio" name="q1" value="cat">
+						Cat
+					</label>
+					<p>
+					<button type="submit">Send</button>
+					</p>
+			</form>
+	</body>
+</html>
